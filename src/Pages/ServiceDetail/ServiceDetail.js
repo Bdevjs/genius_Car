@@ -9,7 +9,7 @@ const ServiceDetail = () => {
 
         fetch(url)
         .then(res=> res.json())
-        .then(data => setService(data));
+        .then(data => setService(data)); //get information every single user
     })
 
     return (
